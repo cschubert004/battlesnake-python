@@ -82,3 +82,85 @@
         "shout": ""
     }
 }
+
+
+{
+    "board": {
+        "food": [
+            {
+                "x": 6,
+                "y": 10
+            },
+            {
+                "x": 5,
+                "y": 5
+            }
+        ],
+        "hazards": [],
+        "height": 11,
+        "snakes": [
+            {
+                "body": [
+                    {
+                        "x": 5,
+                        "y": 9
+                    },
+                    {
+                        "x": 5,
+                        "y": 9
+                    },
+                    {
+                        "x": 5,
+                        "y": 9
+                    }
+                ],
+                "head": {
+                    "x": 5,
+                    "y": 9
+                },
+                "health": 100,
+                "id": "gs_QSCrCBB8XtGYxh7qSJWKxVrX",
+                "latency": "",
+                "length": 3,
+                "name": "cs_test_snake",
+                "shout": ""
+            }
+        ],
+        "width": 11
+    },
+    "game": {
+        "id": "91e7bd2b-7a3e-40de-89af-69adfb94a572",
+        "ruleset": {
+            "name": "solo",
+            "version": "v1.0.17"
+        },
+        "timeout": 500
+    },
+    "turn": 0,
+    "you": {
+        "body": [
+            {
+                "x": 5,
+                "y": 9
+            },
+            {
+                "x": 5,
+                "y": 9
+            },
+            {
+                "x": 5,
+                "y": 9
+            }
+        ],
+        "head": {
+            "x": 5,
+            "y": 9
+        },
+        "health": 100,
+        "id": "gs_QSCrCBB8XtGYxh7qSJWKxVrX",
+        "latency": "",
+        "length": 3,
+        "name": "cs_test_snake",
+        "shout": ""
+    }
+}
