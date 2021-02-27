@@ -53,7 +53,7 @@ class Battlesnake(object):
         head_y = data['you']['head']['y']
         possible_moves = game_board.get_allowable_moves(head_x,head_y)
 
-        if lastmove in possible_moves:
+        if lastmove in possible_moves and data['you']['health'] > 40:
             move = lastmove
         else:
             move = random.choice(possible_moves)
